@@ -1,3 +1,9 @@
+interface Todo {
+  id: number;
+  text: string;
+  done: boolean;
+}
+
 const args = process.argv.slice(2);
 
 if (args.includes("--help") || args.includes("-h")) {
