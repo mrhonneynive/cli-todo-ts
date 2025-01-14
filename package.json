@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mrhonneynive/cli-todo-ts/issues"
   },
-  "homepage": "https://github.com/mrhonneynive/cli-todo-ts#readme"
+  "homepage": "https://github.com/mrhonneynive/cli-todo-ts#readme",
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  }
 }
