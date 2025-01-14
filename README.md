@@ -17,4 +17,8 @@ npm uninstall ts-node
 
 echo "{}" > .prettierrc
 echo ".prettierrc" >> .gitignore
+
+npm run dev -- -h
+npm run dev -- --help
+# -- is used so the flags reach the app
 ```
