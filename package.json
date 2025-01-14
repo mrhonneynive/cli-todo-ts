@@ -10,9 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/mrhonneynive/cli-todo-ts.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["ts", "cli", "todo", "to-do"],
+  "author": "Hasan Balbıçak",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrhonneynive/cli-todo-ts/issues"
   },
