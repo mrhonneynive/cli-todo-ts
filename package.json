@@ -17,6 +17,7 @@
     "url": "https://github.com/mrhonneynive/cli-todo-ts/issues"
   },
   "homepage": "https://github.com/mrhonneynive/cli-todo-ts#readme",
+  "type": "module",
   "dependencies": {
     "sqlite3": "^5.1.7"
   },
