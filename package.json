@@ -3,29 +3,34 @@
   "version": "1.0.0",
   "description": "building a CLI todo application to learn TypeScript",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node src/index.ts"
+    "dev": "tsx src/index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrhonneynive/cli-todo-ts.git"
   },
-  "keywords": ["ts", "cli", "todo", "to-do"],
+  "keywords": [
+    "ts",
+    "cli",
+    "todo",
+    "to-do"
+  ],
   "author": "Hasan Balbıçak",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mrhonneynive/cli-todo-ts/issues"
   },
   "homepage": "https://github.com/mrhonneynive/cli-todo-ts#readme",
-  "type": "module",
   "dependencies": {
     "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@types/node": "^22.10.6",
     "@types/sqlite3": "^3.1.11",
-    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   }
 }

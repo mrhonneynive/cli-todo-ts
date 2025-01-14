@@ -9,4 +9,7 @@ npm i sqlite3
 npm i -D typescript ts-node @types/node @types/sqlite3
 
 npx tsc --init
+
+npm i -D tsx
+npm uninstall ts-node
 ```
