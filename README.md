@@ -6,4 +6,5 @@ building a CLI todo application to learn TypeScript
 npm init -y
 
 npm i sqlite3
+npm i -D typescript ts-node @types/node @types/sqlite3
 ```

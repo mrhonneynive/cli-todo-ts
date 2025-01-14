@@ -19,5 +19,11 @@
   "homepage": "https://github.com/mrhonneynive/cli-todo-ts#readme",
   "dependencies": {
     "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.6",
+    "@types/sqlite3": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
