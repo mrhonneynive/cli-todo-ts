@@ -1,7 +1,9 @@
 # cli-todo-ts
+
 building a CLI todo application to learn TypeScript
 
 # used commands to initialize the project
+
 ```bash
 npm init -y
 
@@ -12,4 +14,7 @@ npx tsc --init
 
 npm i -D tsx
 npm uninstall ts-node
+
+echo "{}" > .prettierrc
+echo ".prettierrc" >> .gitignore
 ```
